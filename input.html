@@ -11,6 +11,25 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="title">
+	<label class="h3 mb-3 font-weight-normal">Enter a Continent!<br>We'll generate a webpage for it.</h1>
+</div>
+<div class="login-button">
+        <select class="custom-select d-block w-100" id="state" required>
+		  	<option>Choose...</option>
+		  	<option>Africa</option>
+		  	<option>Asia</option>
+		  	<option>Australia</option>
+		  	<option>Antarctica</option>
+		  	<option>North America</option>
+		  	<option>South America</option>
+		  	<option>Europe</option>
+          </select>	
+</div>
+<div class="Generate">
+	<button type="button" class="btn btn-light btn-lg btn-block">Generate</button>
+</div>
+</body>
 <style>
 	body{
 		background-color: RGB(40,40,40);
@@ -27,22 +46,11 @@
 		color: lightgray;
 		text-align: center;
 	}
-
+	.Generate{
+		margin-top: 25px;
+		margin-left:  350px;
+		margin-right: 350px;
+		text-align: center;
+	}
 </style>
-<div class="title">
-	<label class="h3 mb-3 font-weight-normal">Enter a Continent!<br>We'll generate a webpage for it.</h1>
-</div>
-<div class="login-button">
-        <select class="custom-select d-block w-100" id="state" required>
-          <option value="">Choose...</option>
-		  <option>Africa</option>
-		  <option>Asia</option>
-		  <option>Australia</option>
-		  <option>Antarctica</option>
-		  <option>North America</option>
-		  <option>South America</option>
-		  <option>Europe</option>
-        </select>
-</div>
-</body>
 </html>
